@@ -1,5 +1,6 @@
 # BASIC FEED 
 
-![Nobullshit feeds](nobs.PNG)
+
+![Nobullshit feeds](nobs.jpg)
 
 ### OVERVIEW 
