@@ -34,3 +34,4 @@ Stretch goal: Allow user to customise theme
 ## DESIGN 
 
 Under consideration - WP to allow ease of php and login. 
+Could build code in Flask webserver - issue is this can not be scaled, not designed for this but allows rapid prototyping. 
