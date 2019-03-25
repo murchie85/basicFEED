@@ -1,0 +1,1 @@
+I am a sample piece of text to be displayed letter by letter line by line using either some jquery or a python process. This will also have to take into account data feeds from multiple different sources and be able to scroll once the text fills the screen.
