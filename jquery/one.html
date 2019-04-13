@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="main.css" />
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="msg"/>
+<div id="Demo"/>
+
+<script>
+
+var heading ="Demo"
+var inputtext ="You know nothing!"
+
+var showText = function (target, message, index, interval) {   
+  if (index < message.length) {
+    $(target).append(message[index++]);
+    setTimeout(function () { showText(target, message, index, interval); }, interval);
+  }
+}
+
+$(function () {
+  showText("#msg", inputtext, 0, 200);   
+});
+
+	
+</script>
+
+</body>
+</html>

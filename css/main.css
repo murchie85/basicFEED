@@ -1,0 +1,100 @@
+/* -------------------------------------------------------------------------------- /
+        [9]     ADVANCED CUSTOMIZATIONS
+/ -------------------------------------------------------------------------------- */
+
+/*** template color customizations ***/
+
+/* custom background */
+#hs-container .has-custom-bg {
+   background:#2af5dd!important;
+}
+
+/* custom color */
+body .has-custom-color, .has-custom-color p, .has-custom-color table, .has-custom-color td {
+   color:#2af5dd;
+}
+
+/*  custom links */
+#hs-container .has-custom-link a:link,#hs-container  .has-custom-link a:visited {
+    color:#2af5dd;
+}
+
+/* custom buttons */
+#hs-container .has-custom-btn .j-product .cc-shop-product-desc .cc-shop-addtocard,#hs-container .has-custom-btn  #cc-sidecart .cc-sidecart-footer .cc-sidecart-checkout,#hs-container .has-custom-btn #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn,#hs-container .has-custom-btn .j-blogarticle .blogreadmore:link,#hs-container .has-custom-btn  .j-blogarticle .blogreadmore:visited,#hs-container .has-custom-btn .j-blogarticle .comment:link,#hs-container .has-custom-btn .j-blogarticle .comment:visited,#hs-container .has-custom-btn .post .blogreadmore:link,#hs-container .has-custom-btn .post .blogreadmore:visited,#hs-container .has-custom-btn .post .comment:link,#hs-container .has-custom-btn .post .comment:visited,#hs-container .has-custom-btn .commententry input[type="submit"],#hs-container .has-custom-btn .j-formnew input[type='submit'],#hs-container .has-custom-btn .j-downloadDocument .cc-m-download-link,#hs-container .has-custom-btn .j-newsletterbox input[type='submit'],.cc-pagemode-overlay #hs-container .has-custom-btn input[type="submit"].submitUser,#hs-container .has-custom-btn .j-rss br+a[target="_blank"],#hs-container .has-custom-btn input#mc-embedded-subscribe.button,#hs-container .has-custom-btn a.j-calltoaction-link.j-calltoaction-link-style-1,#hs-container .has-custom-btn a.j-calltoaction-link.j-calltoaction-link-style-2,#hs-container .has-custom-btn a.j-calltoaction-link.j-calltoaction-link-style-3 {
+  background:#2af5dd;
+}
+
+/* custom buttons hover */
+#hs-container .hs-button.has-custom-btn-hover:hover,#hs-container .has-custom-btn-hover .j-product .cc-shop-product-desc .cc-shop-addtocard:hover,#hs-container .has-custom-btn-hover #cc-sidecart .cc-sidecart-footer .cc-sidecart-checkout:hover,#hs-container .has-custom-btn-hover #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:hover,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:hover:link,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:hover:visited,#hs-container .has-custom-btn-hover .j-blogarticle .comment:hover:link,#hs-container .has-custom-btn-hover .j-blogarticle .comment:hover:visited,#hs-container .has-custom-btn-hover .post .blogreadmore:hover:link,#hs-container .has-custom-btn-hover .post .blogreadmore:hover:visited,#hs-container .has-custom-btn-hover .post .comment:hover:link,#hs-container .has-custom-btn-hover .post .comment:hover:visited,#hs-container .has-custom-btn-hover .commententry input[type="submit"]:hover,#hs-container .has-custom-btn-hover .j-formnew input[type='submit']:hover,#hs-container .has-custom-btn-hover .j-downloadDocument .cc-m-download-link:hover,#hs-container .has-custom-btn-hover .j-newsletterbox input[type='submit']:hover,.cc-pagemode-overlay #hs-container .has-custom-btn-hover input[type="submit"].submitUser:hover,#hs-container .has-custom-btn-hover .j-rss br + a[target="_blank"]:hover,#hs-container .has-custom-btn-hover .j-product .cc-shop-product-desc .cc-shop-addtocard:active,#hs-container .has-custom-btn-hover #cc-sidecart .cc-sidecart-footer .cc-sidecart-checkout:active,#hs-container .has-custom-btn-hover #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:active,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:active:link,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:active:visited,#hs-container .has-custom-btn-hover .j-blogarticle .comment:active:link,#hs-container .has-custom-btn-hover .j-blogarticle .comment:active:visited,#hs-container .has-custom-btn-hover .post .blogreadmore:active:link,#hs-container .has-custom-btn-hover.post .blogreadmore:active:visited,#hs-container .has-custom-btn-hover .post .comment:active:link,#hs-container .has-custom-btn-hover .post .comment:active:visited,#hs-container .has-custom-btn-hover .commententry input[type="submit"]:active,#hs-container .has-custom-btn-hover .j-formnew input[type='submit']:active,#hs-container .has-custom-btn-hover .j-downloadDocument .cc-m-download-link:active,#hs-container .has-custom-btn-hover .j-newsletterbox input[type='submit']:active,#hs-container .has-custom-btn-hover .cc-pagemode-overlay input[type="submit"].submitUser:active,#hs-container .has-custom-btn-hover .j-rss br + a[target="_blank"]:active,#hs-container .has-custom-btn-hover .j-product .cc-shop-product-desc .cc-shop-addtocard:focus,#hs-container .has-custom-btn-hover #cc-sidecart .cc-sidecart-footer .cc-sidecart-checkout:focus,#hs-container .has-custom-btn-hover #cc-checkout-wrapper #cc-checkout-gutter .cc-checkout-btn:focus,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:focus:link,#hs-container .has-custom-btn-hover .j-blogarticle .blogreadmore:focus:visited,#hs-container .has-custom-btn-hover .j-blogarticle .comment:focus:link,#hs-container .has-custom-btn-hover .j-blogarticle .comment:focus:visited,#hs-container .post .blogreadmore:focus:link,#hs-container .has-custom-btn-hover .post .blogreadmore:focus:visited,.post .comment:focus:link,#hs-container .has-custom-btn-hover .post .comment:focus:visited,#hs-container .has-custom-btn-hover .commententry input[type="submit"]:focus,#hs-container .has-custom-btn-hover .j-formnew input[type='submit']:focus,#hs-container .has-custom-btn-hover .j-downloadDocument .cc-m-download-link:focus,#hs-container .has-custom-btn-hover .j-newsletterbox input[type='submit']:focus,.cc-pagemode-overlay #hs-container .has-custom-btn-hover input[type="submit"].submitUser:focus,#hs-container .has-custom-btn-hover .j-rss br+a[target="_blank"]:focus,#hs-container .has-custom-btn-hover input#mc-embedded-subscribe.button:hover,#hs-container .has-custom-btn-hover a.j-calltoaction-link.j-calltoaction-link-style-1:hover,#hs-container .has-custom-btn-hover a.j-calltoaction-link.j-calltoaction-link-style-2:hover,#hs-container .has-custom-btn-hover a.j-calltoaction-link.j-calltoaction-link-style-3:hover {
+    border:none;
+    background: #fff!important;
+    color:#222!important;
+}
+
+/* custom dropdown menu hover and active */
+.has-custom-menu-hover .hs-menu nav ul ul li.cc-nav-parent>a:link,.has-custom-menu-hover .hs-menu nav ul ul li.cc-nav-parent>a:visited,.has-custom-menu-hover .hs-menu nav ul ul li.cc-nav-current>a:link,.has-custom-menu-hover .hs-menu nav ul ul li.cc-nav-current>a:visited,
+.has-custom-menu-hover .hs-menu nav ul ul li a:link:hover,.has-custom-menu-hover .hs-menu nav ul ul li a:link:active,.has-custom-menu-hover .hs-menu nav ul ul li a:link:focus,.has-custom-menu-hover .hs-menu nav ul ul li a:visited:hover,.has-custom-menu-hover .hs-menu nav ul ul li a:visited:active,.has-custom-menu-hover .hs-menu nav ul ul li a:visited:focus {
+    background: #2af5dd!important;
+    color:#fff!important;
+}
+
+/* custom mobile menu hover and active */
+.cc-page .has-custom-menu-mobile .slicknav_nav a:hover,
+.has-custom-menu-mobile .jmd-nav .j-nav-current>a:link,.has-custom-menu-mobile .jmd-nav .j-nav-current>a:visited,.has-custom-menu-mobile .jmd-nav a:active,.has-custom-menu-mobile .jmd-nav a:focus,.has-custom-menu-mobile .jmd-nav a:hover {
+   color:#2af5dd!important;
+}
+
+/* custom bg for image caption - centered only */
+#hs-container .has-custom-caption .j-hgrid div.caption.cc-m-image-align-2,#hs-container .has-custom-caption .j-hgrid .cc-imagewrapper.cc-m-image-align-2 figcaption,
+#hs-container .has-custom-caption div.caption.cc-m-image-align-3,#hs-container .has-custom-caption .cc-imagewrapper.cc-m-image-align-3 figcaption{
+    background:#2af5dd!important;
+}
+
+/* custom social icon */
+.custom-color a.social {
+    background-color:#2af5dd;/* add your own color */
+}
+
+/* custom form styles */
+.has-custom-form .cc-checkout-user-note-form textarea,.has-custom-form  #cc-checkout-billing-address-form input[type="text"],.has-custom-form #cc-checkout-shipping-address-form input[type="text"],.has-custom-form .commententry textarea,.has-custom-form .commententry input[type="text"],.has-custom-form .j-formnew .cc-m-form-view-sortable input[type='text'],.has-custom-form .j-formnew .cc-m-form-view-sortable input[type='email'],.has-custom-form .j-formnew .cc-m-form-view-sortable textarea,.has-custom-form .j-newsletterbox input[type='email'],.cc-pagemode-overlay
+.has-custom-form #password,.has-custom-form .newsletterbox input.newsletterInput  {
+    background-color: #f0f0f0;
+    color: inherit;
+    border: 0px solid #ededed;
+    border-radius:0px;
+    padding: 10px 0;
+    outline: none;
+    width:99%!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/* custom horizontal line */
+#hs-container .has-custom-hr .hr{
+    border-bottom-width:0px;
+    height: 1px;
+    border-bottom-width: 0px;
+    border-color:transparent;
+    background:#2af5dd!important;
+}
+
+/* mid-round shape for social icons */
+.mid-round-icon a.social {
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+     border-radius: 5px; 
+}
+
+/* round shape for social icons */
+.round-icon a.social {
+    -webkit-border-radius: 500px; 
+    -moz-border-radius: 500px; 
+     border-radius: 500px; 
+}
+
+/* custom shopping cart */
+.custom-basket-color .j-cart-icon {
+    color: #fff;
+    background-color: rgba(252, 252, 252, 0.0);
+}
+
+/* animated underlined nav */

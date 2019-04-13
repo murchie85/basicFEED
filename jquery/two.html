@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="main.css" />
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="msg"/>
+<div id="Demo"/>
+
+<script>
+
+var heading ="Demo"
+var inputtext ="You know nothing!"
+
+for (i = 1; i <= 5; ++i) {
+  setDelay(i);
+}
+
+function setDelay(i) {
+  setTimeout(function(){
+    document.write(i);
+  }, 1000);
+}
+</script>
+
+</body>
+</html>

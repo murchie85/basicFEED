@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app103.us.archive.org';v.server_ms=1030;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/static/js/ait-client-rewrite.js?v=1555101866" charset="utf-8"></script>
+<script type="text/javascript">
+WB_wombat_Init("https://web.archive.org/web", "20110807080625", "girliemac.com:80");
+</script>
+<script type="text/javascript" src="/static/js/wbhack.js?v=1555101866" charset="utf-8"></script>
+<script type="text/javascript">
+__wbhack.init('https://web.archive.org/web');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1555101866" />
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1555101866" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>CSS3 Matrix Animation</title>
+		
+		<style type="text/css" media="screen">
+		body{
+			font-family: Helvetica, Verdana, sans-serif;
+		}
+		@font-face {
+			font-family: Katakana;
+			src: url('/web/20110807080625im_/http://girliemac.com/sandbox/MoonBeams-katakana_.TTF');
+		}
+		#matrix{
+			margin: 1em auto;
+			font-family: Katakana;
+			width: 450px;
+			height: 288px;
+			overflow: hidden;
+			background: #000;
+			background-image: -webkit-gradient(linear, 0% 90%, 0% 100%, from(rgba(0, 255, 0, 0)), to(rgba(0, 255, 0, 0.1)));
+			color: rgba(0, 255, 0, .7);
+			text-shadow: rgba(255, 255, 255, .8) 0px 0px 4px;
+			position: relative;	
+		}
+		@-webkit-keyframes fade{
+		    0%   { opacity: 1; }
+		    100% { opacity: 0; }
+		}
+		@-webkit-keyframes fall{
+		   	from {top: -250px;}
+			to 	{top: 300px;}
+		}
+
+
+		#matrix div{
+			/* writing-mode: tb-rl; - ughh. doesn't work */
+			position: absolute;	
+			top: 0;
+			/* arrearance */
+			-webkit-transform-origin: 0%;
+			-webkit-transform: rotate(90deg); 
+			
+			/* animation */
+			-webkit-animation-name: fall, fade;			
+			-webkit-animation-iteration-count: infinite; /* use 0 to infinite */
+			-webkit-animation-direction: normal; /* default is normal. use 'alternate' to reverse direction */
+			-webkit-animation-timing-function: ease-out;
+		}
+		#matrix span{
+			color: rgb(0, 255, 0);
+			text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+		}
+		.f1{
+			font-size: 1.2em;
+		}
+		.f2{
+			font-size: .9em;
+		}
+		.c1{
+			color: rgba(0, 255, 0, .5);
+		}
+		.d1{
+			-webkit-animation-duration: 4s;
+		}
+		.d2{
+			-webkit-animation-duration: 6s;
+		}
+		.d3{
+			-webkit-animation-duration: 8s;
+		}
+		.d4{
+			-webkit-animation-duration: 10s;
+		}
+		.de{	
+			-webkit-animation-delay: 3s;
+		}
+		
+		</style>
+		
+	</head>
+	<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/timestamp.js?v=1555101866" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js?v=1555101866" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/auto-complete.js?v=1555101866" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/toolbar.js?v=1555101866" charset="utf-8"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="wm-ipp-inside">
+  <div style="position:relative;">
+    <div id="wm-logo" style="float:left;width:130px;padding-top:10px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+    </div>
+    <div class="r" style="float:right;">
+      <div id="wm-btns" style="text-align:right;height:25px;">
+                  <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a href="#"
+             onclick="__wm.saveSnapshot('http://girliemac.com/sandbox/matrix.html', '20110807080625')"
+             title="Share via My Web Archive"
+             id="wm-save-snapshot-open"
+          >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php"
+             title="Sign In"
+             id="wm-sign-in"
+          >
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        	<a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" onclick="__wm.h(event);return false;" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" style="text-align:right;">
+	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://web.archive.org/web/20110807080625/http://girliemac.com:80/sandbox/matrix.html', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=https://web.archive.org/web/20110807080625/http://girliemac.com:80/sandbox/matrix.html&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+    </div>
+    <table class="c" style="">
+      <tbody>
+	<tr>
+	  <td class="u" colspan="2">
+	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://girliemac.com/sandbox/matrix.html" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20110807080625" /><input type="submit" value="Go" /></form>
+	  </td>
+	  <td class="n" rowspan="2" style="width:110px;">
+	    <table>
+	      <tbody>
+		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		<tr class="m">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20110630133720/http://girliemac.com:80/sandbox/matrix.html" title="30 Jun 2011"><strong>Jun</strong></a></td>
+		  <td class="c" id="displayMonthEl" title="You are here: 08:06:25 Aug 07, 2011">AUG</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20110924071546/http://girliemac.com:80/sandbox/matrix.html" title="24 Sep 2011"><strong>Sep</strong></a></td>
+		</tr>
+		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		<tr class="d">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20110714023405/http://girliemac.com:80/sandbox/matrix.html" title="02:34:05 Jul 14, 2011"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 08:06:25 Aug 07, 2011">07</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20110813200144/http://girliemac.com/sandbox/matrix.html" title="20:01:44 Aug 13, 2011"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+		</tr>
+		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		<tr class="y">
+		  <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20090919142351/http://girliemac.com:80/sandbox/matrix.html" title="19 Sep 2009"><strong>2009</strong></a></td>
+		  <td class="c" id="displayYearEl" title="You are here: 08:06:25 Aug 07, 2011">2011</td>
+		  <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20120920024214/http://girliemac.com/sandbox/matrix.html" title="20 Sep 2012"><strong>2012</strong></a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="s">
+	    	    <div id="wm-nav-captures">
+	      	      <a class="t" href="/web/20110807080625*/http://girliemac.com/sandbox/matrix.html" title="See a list of every capture for this URL">82 captures</a>
+	      <div class="r" title="Timespan for captures of this URL">03 Jul 2009 - 19 Jun 2018</div>
+	      </div>
+	  </td>
+	  <td class="k">
+	    <a href="" id="wm-graph-anchor">
+	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		<canvas id="wm-sparkline-canvas" width="600" height="27" border="0"></canvas>
+	      </div>
+	    </a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <div style="position:absolute;bottom:0;right:2px;text-align:right;">
+      <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+            <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/alexacrawls)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/alexacrawls" target="_new"><span class="wm-title">Alexa Crawls</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Starting in 1996, <a href="http://www.alexa.com/">Alexa Internet</a> has been donating their crawl data to the Internet Archive.  Flowing in every day, these data are added to the <a href="http://web.archive.org/">Wayback Machine</a> after an embargo period.
+	</div>
+	      </div>
+    </div>
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/static/images/loading.gif" alt="loading" /></div>
+    </div>
+  </div></div></div></div><script type="text/javascript">
+__wm.bt(600,27,25,2,"web","http://girliemac.com/sandbox/matrix.html","2011-08-07",1996,"/static/",['css/banner-styles.css','css/iconochive.css']);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+		<h1>"Matrix" Animation with CSS3 on WebKit</h1>
+		
+		<div id="matrix">	
+			<div class="d1 c1 de" style="left:5px;">q8w<span>1</span>ertyuioklsdfgh<span>j</span>zxc</div>
+			<div class="d3 f1" style="left:30px;">hgd4ldhbc9kpugccsr<span>q</span></div>
+			<div class="d1 f2 c1" style="left:60px;">tr<span>z</span>ews0yfkldf4cvgbhj<span>n</span></div>
+			<div class="d2 f1" style="left:80px;">sodhr49wh<span>u</span>yfbsrnlepjh</div>
+			<div class="d4 c3 de" style="left:110px;">fue73<span>s</span>jf0tbkxpowf<span>v</span>n</div>
+			<div class="d2 c1" style="left:140px;">sjdhfgueiwfgivecjowxkwpkpo<span>m</span>vcjoeuur</div>
+			<div class="d3 f2 c1" style="left:170px;">tr<span>z</span>hfggh</div>
+			<div class="d1 c1" style="left:185px;">thgp<span>m</span>srthdvytfv09876t<span>q</span>fgv</div>
+			<div class="d3 de" style="left:200px;">dhiwgfdue<span>s</span>rjm</div>
+			<div class="d4 f1" style="left:250px;">osadh<span>a</span>rshdyfeujm</div>
+			<div class="d2 de" style="left:290px;">fwedjsdjh<span>l</span>gmrghftdercwewergjm</div>
+			<div class="d3 f2" style="left:310px;">sodhr49wh<span>a</span>yfbsrnlepjh</div>
+			<div class="d1 f1" style="left:350px;">p00oi<span>0</span>nf5sujhgdgbrjs36gdr<span>g</span>jpo</div>
+			<div class="d4 c1" style="left:390px;">h68kgdetklbf<span>b</span>eswk</div>
+			<div class="d2 de" style="left:410px;">dfrttvb<span>s</span>cfsr</div>
+			<div class="d1 c1 de" style="left:430px;">sgfy<span>b</span>0hfrese<span>4</span>kc</div>
+		</div>	
+		
+			
+		<p>
+			Working as expected on:
+			<ul>
+				<li>WebKit Nightly (current)</li>
+				<li>Safari 4</li>
+			</ul>
+			@font-face doe not work on:
+			<ul>
+				<li>iPhone Safari</li>
+				<li>UPDATED: Google Chrome Dev channel (Mac: 190.0)</li>
+			</ul>
+			Nothing works on:
+			<ul>
+				<li><del>Google Chrome (and I won't bother testing on Android)</del></li>
+				<li>UPDATED: Google Chrome (public, Windows) </li>
+			</ul>
+		</p>
+		
+		<h2>Screen Capture on WebKit</h2>
+		<img src="https://web.archive.org/web/20110807080625im_/http://girliemac.com/blog/wp-content/images/screenshot_css3matrix.png" alt="css3 animation screenshot"/>
+		
+		
+		<h2>Wish List</h2>
+		<ul>
+			<li>Vertical writing mode <code>writing-mode: tb-rl</code></li>
+		</ul>
+		
+		<div align="right"><a href="https://web.archive.org/web/20110807080625/http://girliemac.com/blog/2009/05/03/matrix-animation-with-webkit-css3/">Back to GirlieMac! Blog</a></div>
+	
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 08:06:25 Aug 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:18:12 Apr 13, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 747.991 (3)
+  esindex: 0.008
+  captures_list: 829.505
+  CDXLines.iter: 13.302 (3)
+  PetaboxLoader3.datanode: 84.512 (4)
+  exclusion.robots: 0.362
+  exclusion.robots.policy: 0.348
+  RedisCDXSource: 60.28
+  PetaboxLoader3.resolve: 74.033
+  load_resource: 180.596
+-->
